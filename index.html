@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Hot or Cold in Javascript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <!-- title -->
+    <title>Hot or Cold</title>
+        <!-- style -->
+         <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-pink.min.css" />
+  </head>
+  <body>
+    <center>
+        <!-- Script -->
+    <script src="./js/script.js"></script>
+    
+    <h1>Hot or Cold in JavaScript</h1>
+    <p>Are you planning to go somewhere, but don't want to be the only person with or without a jacket? Well there is a possibility that this webpage will help.</p>
+    <p>Insert the weather into this text field and this page will tell you if the weather is cold or warm.</p>
+    <p>There is not a clear way to determine whether it is cold outside or not, though in the case of this page, anything below freezing level is cold.</p>
+    <img src="images/thermometers.jpg" alt="image" lenth=200 width=100>
+    <!-- textfields -->
+              <p>
+      <form action="javascript: answer()">
+        <label for="celsius">Temperature (C)</label>
+        <input type="number" step="0.01" id="celsius" placeholder="Temperature"><br><br>
+                <!-- Accent-colored raised button with ripple -->
+<input type="submit" button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="answer">
+      </center>
+			</div>
+  </body>
+</html>
